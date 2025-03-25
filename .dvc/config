@@ -1,0 +1,4 @@
+[core]
+    remote = myremot
+['remote "myremot"']
+    url = C:\Users\Ameena\AppData\Local\Temp
