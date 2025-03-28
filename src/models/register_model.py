@@ -21,9 +21,6 @@ repo_name = "emotion-detection"
 # Set up MLflow tracking URI
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
-#mlflow.set_tracking_uri('https://dagshub.com/aftabahmedd10/emotion-detection.mlflow')
-#dagshub.init(repo_owner='aftabahmedd10', repo_name='emotion-detection', mlflow=True)
-
 
 # logging configuration
 logger = logging.getLogger('model_registration')
