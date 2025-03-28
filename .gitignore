@@ -1,6 +1,3 @@
-/venv/
-/reports/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -90,6 +87,7 @@ target/
 
 # Mypy cache
 .mypy_cache/
-/model.pkl
-/mlruns/
-/flask_app/.env
+
+venv
+
+models
