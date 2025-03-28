@@ -2,8 +2,6 @@
 __pycache__/
 *.py[cod]
 
-/models/
-
 # C extensions
 *.so
 
@@ -91,5 +89,3 @@ target/
 .mypy_cache/
 
 venv
-
-models
