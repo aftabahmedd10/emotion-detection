@@ -118,7 +118,7 @@ def main():
     mlflow.set_experiment("dvc-pipeline")
     with mlflow.start_run() as run:  # Start an MLflow run
         try:
-            clf = load_model('./models/model.pkl')
+            clf = load_model('./model/model.pkl')
             test_data = load_data('./data/processed/test_bow.csv')
             
             X_test = test_data.iloc[:, :-1].values
