@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = C:\Users\Ameena\AppData\Local\Temp
+    url = s3://twemotion-bucket

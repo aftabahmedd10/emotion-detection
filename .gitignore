@@ -93,3 +93,4 @@ target/
 .mypy_cache/
 /model.pkl
 /mlruns/
+/flask_app/.env
